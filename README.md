@@ -19,3 +19,11 @@ Another example: For coding a specific person's name you would have to add the a
 			 studentNext++;
 This is one example of the input the user will put and the output would be returning the user to enter the first, last name as well as the level; "Shree Patel, 9;
 using random.nextInt basically represents picking a number for a student id from 1-100 and this is automatic
+This new part is about course system too, the only difference is to change the file a little bit to make it as such the questions can ask "what course" and "course number" 
+	if(newcourse==1) {//add new course code}
+			System.out.println(" Add a new course:");
+		assignnewcourse=input.nextInt();
+		 for(i=0; i<studentobjects.length;i++) {
+  		   if(studentobjects[i] !=null) {
+  			   
+  		   }
